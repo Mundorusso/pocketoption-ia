@@ -1,17 +1,13 @@
 {
   "name": "pocketoption-ia",
   "version": "1.0.0",
-  "type": "module",
   "main": "server.js",
+  "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
     "cors": "^2.8.5",
-    "openai": "^4.59.0"
-  },
-  "engines": {
-    "node": ">=18"
+    "express": "^4.19.2"
   }
 }
